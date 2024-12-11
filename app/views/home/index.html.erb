@@ -2,3 +2,18 @@
   <input data-hello-target="name" type="text">
   <button data-action="click->hello#greet">Greet</button>
 </div>
+
+<div data-controller="clipboard">
+  PIN: <input data-clipboard-target="source" type="text" value="1337" readonly>
+  <button data-action="clipboard#copy">Copy to Clipboard</button>
+</div>
+
+<div data-controller="clipboard">
+  PIN: <input data-clipboard-target="source" type="text" value="2575" readonly>
+  <button data-action="clipboard#copy">Copy to Clipboard</button>
+</div>
+
+<div data-controller="clipboard">
+  PIN: <input data-clipboard-target="source" type="text" value="3737" readonly>
+  <a href="#" data-action="clipboard#copy">Copy to Clipboard</a>
+</div>
